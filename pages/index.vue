@@ -85,7 +85,7 @@ useHead({
 
                     <!-- Image (Enlarged) -->
                     <div class="rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.01] transition duration-500">
-                            <NuxtImg src="/taksischweiz.webp" alt="Taxi Schweiz" class="w-full h-[500px] object-cover object-center" />
+                            <NuxtImg src="/taksischweiz.webp" alt="Taxi Schweiz" class="w-full h-auto object-cover" />
                     </div>
                 </div>
 
@@ -96,8 +96,8 @@ useHead({
                      
                      <div class="bg-white rounded-3xl shadow-xl overflow-hidden relative z-10 border border-gray-100">
                         <!-- Portrait Focus -->
-                        <div class="h-[500px] relative overflow-hidden">
-                            <NuxtImg src="/uberuns.webp" alt="Unser Team" class="w-full h-full object-cover object-top" />
+                        <div class="h-auto relative overflow-hidden">
+                            <NuxtImg src="/uberuns.webp" alt="Unser Team" class="w-full h-auto object-cover" />
                             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-6">
                                 <h2 class="text-2xl font-bold text-white mb-1">Über uns</h2>
                                 <div class="w-12 h-1 bg-action rounded-full"></div>
