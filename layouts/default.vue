@@ -13,14 +13,14 @@ const { zone } = useZone()
           <NuxtImg src="/logo.webp" alt="Taxie Logo" class="h-40 w-auto" />
         </NuxtLink>
         
-        <nav class="hidden md:flex gap-6 font-medium text-gray-600">
-          <NuxtLink to="/" class="hover:text-primary transition">Home</NuxtLink>
-          <NuxtLink to="#tarife" class="hover:text-primary transition">Tarife</NuxtLink>
-          <NuxtLink to="#kontakt" class="hover:text-primary transition">Kontakt</NuxtLink>
+        <nav class="hidden md:flex gap-10 font-bold text-gray-700 text-xl items-center">
+          <NuxtLink to="/" class="hover:text-primary hover:scale-105 transition-transform" active-class="text-primary">Home</NuxtLink>
+          <NuxtLink to="#tarife" class="hover:text-primary hover:scale-105 transition-transform">Tarife</NuxtLink>
+          <NuxtLink to="#kontakt" class="hover:text-primary hover:scale-105 transition-transform">Kontakt</NuxtLink>
         </nav>
 
-        <a href="tel:+41798681000" class="hidden md:flex bg-action hover:bg-yellow-400 text-black px-4 py-2 rounded-full font-bold transition items-center gap-2">
-          <Phone class="w-4 h-4" />
+        <a href="tel:+41798681000" class="hidden md:flex bg-action hover:bg-yellow-400 text-black px-6 py-3 rounded-full font-bold text-lg transition items-center gap-3 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
+          <Phone class="w-5 h-5" />
           079 868 10 00
         </a>
       </div>
