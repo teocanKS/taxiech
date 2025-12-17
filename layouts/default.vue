@@ -10,7 +10,7 @@ const { zone } = useZone()
     <header class="bg-white shadow-sm sticky top-0 z-40">
       <div class="container mx-auto px-4 h-32 flex items-center justify-between">
         <NuxtLink to="/" class="flex items-center gap-2">
-          <NuxtImg src="/logo.webp" alt="Taxie Logo" class="h-28 w-auto" />
+          <NuxtImg src="/logo.webp" alt="Taxie Logo" class="h-40 w-auto" />
         </NuxtLink>
         
         <nav class="hidden md:flex gap-6 font-medium text-gray-600">
