@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { Check, Phone, MessageCircle } from 'lucide-vue-next'
+import { Check, Phone, MessageCircle, Star, Shield, Clock, Leaf } from 'lucide-vue-next'
 
 const { zone } = useZone()
 
@@ -269,6 +269,62 @@ useHead({
 
             </div>
         </div>
+    </section>
+
+    <!-- Why Choose Us (New Section) -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+           <h2 class="text-3xl font-bold text-gray-900 mb-4">Warum Taxie.ch?</h2>
+           <p class="text-gray-600 text-lg max-w-2xl mx-auto">Ihr Partner für Mobilität in Wohlen, Muri und Umgebung.</p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+           <!-- Feature 1 -->
+           <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100 group">
+              <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center text-green-800 mb-6 mx-auto md:mx-0 group-hover:scale-110 transition duration-300">
+                  <Star class="w-7 h-7" />
+              </div>
+              <h3 class="text-xl font-bold mb-3 text-gray-900">Komfort auf höchstem Niveau</h3>
+              <p class="text-gray-600 leading-relaxed text-sm">
+                  Unsere modernen Fahrzeuge bieten Ihnen maximalen Komfort. Egal ob Business-Trip oder Flughafentransfer – lehnen Sie sich zurück.
+              </p>
+           </div>
+           
+           <!-- Feature 2 -->
+           <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100 group">
+               <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center text-green-800 mb-6 mx-auto md:mx-0 group-hover:scale-110 transition duration-300">
+                  <Shield class="w-7 h-7" />
+              </div>
+              <h3 class="text-xl font-bold mb-3 text-gray-900">Ihre Sicherheit ist Priorität</h3>
+              <p class="text-gray-600 leading-relaxed text-sm">
+                  Unsere Chauffeure sind lizenziert und ortskundig. Wir bringen Sie sicher und auf dem schnellsten Weg ans Ziel. 100% Transparenz.
+              </p>
+           </div>
+
+           <!-- Feature 3 -->
+           <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100 group">
+              <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center text-green-800 mb-6 mx-auto md:mx-0 group-hover:scale-110 transition duration-300">
+                  <Clock class="w-7 h-7" />
+              </div>
+              <h3 class="text-xl font-bold mb-3 text-gray-900">Rund um die Uhr für Sie da</h3>
+              <p class="text-gray-600 leading-relaxed text-sm">
+                  Ob früh morgens oder spät nachts: Taxie ist 24/7 einsatzbereit. Bestellen Sie bequem per Telefon oder WhatsApp.
+              </p>
+           </div>
+
+           <!-- Feature 4 -->
+            <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-md transition duration-300 border border-gray-100 group">
+              <div class="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center text-green-800 mb-6 mx-auto md:mx-0 group-hover:scale-110 transition duration-300">
+                  <Leaf class="w-7 h-7" />
+              </div>
+              <h3 class="text-xl font-bold mb-3 text-gray-900">Nachhaltig unterwegs</h3>
+              <p class="text-gray-600 leading-relaxed text-sm">
+                  Wir setzen auf moderne, verbrauchsarme Fahrzeuge und optimierte Routenplanung für einen geringen ökologischen Fussabdruck.
+              </p>
+           </div>
+        </div>
+      </div>
     </section>
 
     <!-- Contact CTA -->
