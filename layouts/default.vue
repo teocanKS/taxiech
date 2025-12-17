@@ -45,6 +45,9 @@ const { zone } = useZone()
         WHATSAPP
       </a>
     </div>
+
+    <!-- Desktop Floating Widget -->
+    <FloatingContact class="hidden md:flex" />
   </div>
 </template>
 
