@@ -8,8 +8,8 @@ const { zone } = useZone()
   <div class="flex flex-col min-h-screen bg-white text-gray-900 font-sans">
     <!-- Header -->
     <header class="bg-white shadow-sm sticky top-0 z-40">
-      <div class="container mx-auto px-4 h-32 flex items-center justify-between">
-        <NuxtLink to="/" class="flex items-center gap-2">
+      <div class="container mx-auto px-4 h-40 flex items-center justify-between">
+        <NuxtLink to="/" class="flex items-center gap-2 -ml-6">
           <NuxtImg src="/logo.webp" alt="Taxie Logo" class="h-40 w-auto" />
         </NuxtLink>
         
