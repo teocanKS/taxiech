@@ -45,10 +45,10 @@ useHead({
       
       <div class="container mx-auto px-4 relative z-10 text-center text-white">
         <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight drop-shadow-xl text-balance">
-          {{ zone.name }}
+          TaxiE
         </h1>
         <p class="text-xl md:text-3xl mb-10 font-light max-w-2xl mx-auto text-balance">
-          Pünktlich, Sicher, Zuverlässig in {{ zone.locality }}
+          Pünktlich, Sicher, Zuverlässig
         </p>
         <div class="flex flex-col md:flex-row gap-4 justify-center">
           <a href="tel:+41798681000" class="bg-action text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transition shadow-lg flex items-center justify-center gap-2 transform hover:scale-105 duration-200">
