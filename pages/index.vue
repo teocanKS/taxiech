@@ -86,7 +86,7 @@ useHead({
 
                         <!-- Image -->
                         <div class="rounded-2xl overflow-hidden shadow-xl transform rotate-1 hover:rotate-0 transition duration-500">
-                             <NuxtImg src="/taxi-schild-beleuchtet.webp" alt="Taxi Schild" class="w-full h-64 object-cover" />
+                             <NuxtImg src="/taksischweiz.webp" alt="Taxi Schweiz" class="w-full h-64 object-cover" />
                         </div>
                     </div>
                 </div>
@@ -97,8 +97,8 @@ useHead({
                      <div class="absolute inset-0 bg-action rounded-3xl transform rotate-2 translate-x-4 translate-y-4 opacity-50"></div>
                      
                      <div class="bg-white rounded-3xl shadow-xl overflow-hidden relative z-10 border border-gray-100">
-                        <div class="aspect-[4/3] relative">
-                            <NuxtImg src="/uberuns.webp" alt="Unser Team" class="w-full h-full object-cover" />
+                        <div class="aspect-[3/4] relative">
+                            <NuxtImg src="/uberuns.webp" alt="Unser Team" class="w-full h-full object-cover object-center" />
                             <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex flex-col justify-end p-8">
                                 <h2 class="text-3xl font-bold text-white mb-2">Über uns</h2>
                                 <div class="w-16 h-1 bg-action rounded-full"></div>
