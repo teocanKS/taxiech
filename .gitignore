@@ -7,7 +7,7 @@
 
 # Node dependencies
 node_modules
-package-lock.json
+# package-lock.json <- Committed for Vercel
 yarn.lock
 pnpm-lock.yaml
 
