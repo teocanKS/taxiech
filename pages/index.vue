@@ -62,6 +62,50 @@ useHead({
       </div>
     </section>
 
+    <!-- Fleet Showcase (Our Services) -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+          <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-4">Unsere Flotte</h2>
+            <p class="text-gray-600 text-lg max-w-2xl mx-auto">Komfortable Fahrzeuge für jeden Anlass. Ob Einzelperson oder Gruppe, wir haben das passende Taxi für Sie.</p>
+          </div>
+
+          <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <!-- Card 1: Standard -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition duration-300">
+                <div class="aspect-video relative overflow-hidden">
+                    <NuxtImg src="/taxi-honda-kombi-weiss.webp" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Standard Taxi" />
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-gray-900">Standard Taxi</h3>
+                    <p class="text-gray-600 mb-4">Honda Kombi - Perfekt für den Alltag und Flughafentransfers.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Bis zu 4 Personen</li>
+                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Viel Gepäckraum</li>
+                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Klimatisiert</li>
+                    </ul>
+                </div>
+            </div>
+
+             <!-- Card 2: Business/Group -->
+             <div class="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition duration-300">
+                <div class="aspect-video relative overflow-hidden">
+                    <NuxtImg src="/mercedes-v-klasse-grossraumtaxi.webp" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Grossraum Taxi" />
+                </div>
+                <div class="p-8">
+                    <h3 class="text-2xl font-bold mb-2 text-gray-900">Grossraumtaxi</h3>
+                    <p class="text-gray-600 mb-4">Mercedes V-Klasse - Für Gruppen und Business-Clients.</p>
+                    <ul class="space-y-2 mb-6">
+                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Bis zu 7 Personen</li>
+                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Business-Komfort</li>
+                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Ideal für Events</li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
     <!-- Vision & About Us Section -->
     <section class="py-20 bg-white overflow-hidden">
         <div class="container mx-auto px-4">
@@ -116,50 +160,6 @@ useHead({
 
             </div>
         </div>
-    </section>
-
-    <!-- Fleet Showcase (Our Services) -->
-    <section class="py-20 bg-gray-50">
-      <div class="container mx-auto px-4">
-          <div class="text-center mb-12">
-            <h2 class="text-3xl font-bold text-gray-900 mb-4">Unsere Flotte</h2>
-            <p class="text-gray-600 text-lg max-w-2xl mx-auto">Komfortable Fahrzeuge für jeden Anlass. Ob Einzelperson oder Gruppe, wir haben das passende Taxi für Sie.</p>
-          </div>
-
-          <div class="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <!-- Card 1: Standard -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition duration-300">
-                <div class="aspect-video relative overflow-hidden">
-                    <NuxtImg src="/taxi-honda-kombi-weiss.webp" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Standard Taxi" />
-                </div>
-                <div class="p-8">
-                    <h3 class="text-2xl font-bold mb-2 text-gray-900">Standard Taxi</h3>
-                    <p class="text-gray-600 mb-4">Honda Kombi - Perfekt für den Alltag und Flughafentransfers.</p>
-                    <ul class="space-y-2 mb-6">
-                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Bis zu 4 Personen</li>
-                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Viel Gepäckraum</li>
-                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Klimatisiert</li>
-                    </ul>
-                </div>
-            </div>
-
-             <!-- Card 2: Business/Group -->
-             <div class="bg-white rounded-2xl shadow-lg overflow-hidden group hover:shadow-xl transition duration-300">
-                <div class="aspect-video relative overflow-hidden">
-                    <NuxtImg src="/mercedes-v-klasse-grossraumtaxi.webp" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Grossraum Taxi" />
-                </div>
-                <div class="p-8">
-                    <h3 class="text-2xl font-bold mb-2 text-gray-900">Grossraumtaxi</h3>
-                    <p class="text-gray-600 mb-4">Mercedes V-Klasse - Für Gruppen und Business-Clients.</p>
-                    <ul class="space-y-2 mb-6">
-                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Bis zu 7 Personen</li>
-                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Business-Komfort</li>
-                        <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Ideal für Events</li>
-                    </ul>
-                </div>
-            </div>
-          </div>
-      </div>
     </section>
 
     <!-- Pricing Section -->
