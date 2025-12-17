@@ -106,62 +106,6 @@ useHead({
       </div>
     </section>
 
-    <!-- Vision & About Us Section -->
-    <section class="py-20 bg-white overflow-hidden">
-        <div class="container mx-auto px-4">
-            <div class="grid lg:grid-cols-12 gap-12 items-start">
-                
-                <!-- Vision Column (Wider - 60%) -->
-                <div class="lg:col-span-7 relative flex flex-col gap-8">
-                    <!-- Background Accent -->
-                    <div class="absolute -top-10 -left-10 w-40 h-40 bg-action/20 rounded-full blur-3xl"></div>
-                    
-                    <!-- Vision Box -->
-                    <div class="bg-gray-50 p-10 rounded-2xl shadow-sm border border-gray-100 relative overflow-hidden group">
-                        <div class="absolute top-0 right-0 w-24 h-24 bg-action transition-transform transform translate-x-12 -translate-y-12 group-hover:scale-110"></div>
-                        <h2 class="text-4xl font-bold mb-6 text-gray-900 relative z-10">Unsere Vision</h2>
-                        <p class="text-gray-700 text-lg leading-relaxed relative z-10">
-                            Wir streben danach, führend im Taximarkt zu werden und unseren Kunden erstklassigen Service sowie ein unvergessliches Fahrerlebnis zu bieten.
-                            Unser Ziel ist es, dass sich jeder Fahrgast bei jeder Fahrt mit uns sicher und wohl fühlt. 
-                            Vielen Dank, dass Sie sich für TaxiE entscheiden. Wir freuen uns darauf, Sie überall hin zu bringen!
-                        </p>
-                    </div>
-
-                    <!-- Image (Enlarged) -->
-                    <div class="rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.01] transition duration-500">
-                            <NuxtImg src="/taksischweiz.webp" alt="Taxi Schweiz" class="w-full h-auto object-cover" />
-                    </div>
-                </div>
-
-                <!-- About Us Column (Narrower - 40% & Smaller Image) -->
-                <div class="lg:col-span-5 relative mt-8 lg:mt-0">
-                     <!-- Yellow Background Box -->
-                     <div class="absolute inset-0 bg-action rounded-3xl transform rotate-1 translate-x-3 translate-y-3 opacity-50 h-full"></div>
-                     
-                     <div class="bg-white rounded-3xl shadow-xl overflow-hidden relative z-10 border border-gray-100">
-                        <!-- Portrait Focus -->
-                        <div class="h-auto relative overflow-hidden">
-                            <NuxtImg src="/uberuns.webp" alt="Unser Team" class="w-full h-auto object-cover" />
-                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-6">
-                                <h2 class="text-2xl font-bold text-white mb-1">Über uns</h2>
-                                <div class="w-12 h-1 bg-action rounded-full"></div>
-                            </div>
-                        </div>
-                        <div class="p-6">
-                            <p class="text-gray-600 text-base leading-relaxed mb-4">
-                                Als junges und dynamisches Unternehmen mit Sitz in Wohlen AG haben wir es uns zur Aufgabe gemacht, unseren Kunden jederzeit und überall einen schnellen, sicheren und komfortablen Taxi-Service zu bieten.
-                            </p>
-                            <p class="text-gray-600 text-base leading-relaxed">
-                                Mit 4 Jahren Erfahrung im Taxigewerbe kennen wir die Bedürfnisse unserer Fahrgäste genau und setzen alles daran, diese zu erfüllen.
-                            </p>
-                        </div>
-                     </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
     <!-- Pricing Section -->
     <section id="tarife" class="py-20">
       <div class="container mx-auto px-4">
@@ -269,6 +213,62 @@ useHead({
             </div>
         </div>
       </div>
+    </section>
+
+    <!-- Vision & About Us Section -->
+    <section class="py-20 bg-white overflow-hidden">
+        <div class="container mx-auto px-4">
+            <div class="grid lg:grid-cols-12 gap-12 items-start">
+                
+                <!-- Vision Column (Wider - 60%) -->
+                <div class="lg:col-span-7 relative flex flex-col gap-8">
+                    <!-- Background Accent -->
+                    <div class="absolute -top-10 -left-10 w-40 h-40 bg-action/20 rounded-full blur-3xl"></div>
+                    
+                    <!-- Vision Box -->
+                    <div class="bg-gray-50 p-10 rounded-2xl shadow-sm border border-gray-100 relative overflow-hidden group">
+                        <div class="absolute top-0 right-0 w-24 h-24 bg-action transition-transform transform translate-x-12 -translate-y-12 group-hover:scale-110"></div>
+                        <h2 class="text-4xl font-bold mb-6 text-gray-900 relative z-10">Unsere Vision</h2>
+                        <p class="text-gray-700 text-lg leading-relaxed relative z-10">
+                            Wir streben danach, führend im Taximarkt zu werden und unseren Kunden erstklassigen Service sowie ein unvergessliches Fahrerlebnis zu bieten.
+                            Unser Ziel ist es, dass sich jeder Fahrgast bei jeder Fahrt mit uns sicher und wohl fühlt. 
+                            Vielen Dank, dass Sie sich für TaxiE entscheiden. Wir freuen uns darauf, Sie überall hin zu bringen!
+                        </p>
+                    </div>
+
+                    <!-- Image (Enlarged) -->
+                    <div class="rounded-2xl overflow-hidden shadow-xl transform hover:scale-[1.01] transition duration-500">
+                            <NuxtImg src="/taksischweiz.webp" alt="Taxi Schweiz" class="w-full h-auto object-cover" />
+                    </div>
+                </div>
+
+                <!-- About Us Column (Narrower - 40% & Smaller Image) -->
+                <div class="lg:col-span-5 relative mt-8 lg:mt-0">
+                     <!-- Yellow Background Box -->
+                     <div class="absolute inset-0 bg-action rounded-3xl transform rotate-1 translate-x-3 translate-y-3 opacity-50 h-full"></div>
+                     
+                     <div class="bg-white rounded-3xl shadow-xl overflow-hidden relative z-10 border border-gray-100">
+                        <!-- Portrait Focus -->
+                        <div class="h-auto relative overflow-hidden">
+                            <NuxtImg src="/uberuns.webp" alt="Unser Team" class="w-full h-auto object-cover" />
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex flex-col justify-end p-6">
+                                <h2 class="text-2xl font-bold text-white mb-1">Über uns</h2>
+                                <div class="w-12 h-1 bg-action rounded-full"></div>
+                            </div>
+                        </div>
+                        <div class="p-6">
+                            <p class="text-gray-600 text-base leading-relaxed mb-4">
+                                Als junges und dynamisches Unternehmen mit Sitz in Wohlen AG haben wir es uns zur Aufgabe gemacht, unseren Kunden jederzeit und überall einen schnellen, sicheren und komfortablen Taxi-Service zu bieten.
+                            </p>
+                            <p class="text-gray-600 text-base leading-relaxed">
+                                Mit 4 Jahren Erfahrung im Taxigewerbe kennen wir die Bedürfnisse unserer Fahrgäste genau und setzen alles daran, diese zu erfüllen.
+                            </p>
+                        </div>
+                     </div>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- Contact CTA -->
