@@ -47,8 +47,8 @@ useHead({
         <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight drop-shadow-xl text-balance">
           TaxiE
         </h1>
-        <p class="text-xl md:text-3xl mb-10 font-light max-w-2xl mx-auto text-balance">
-          Pünktlich, Sicher, Zuverlässig
+        <p class="text-xl md:text-3xl mb-10 font-light max-w-4xl mx-auto text-balance">
+          24/7 Taxi-Service in Waltenschwil, Wohlen, Bremgarten, Muri AG und Umgebung!
         </p>
         <div class="flex flex-col md:flex-row gap-4 justify-center">
           <a href="tel:+41798681000" class="bg-action text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transition shadow-lg flex items-center justify-center gap-2 transform hover:scale-105 duration-200">
@@ -93,7 +93,7 @@ useHead({
                     <NuxtImg src="/mercedes-v-klasse-grossraumtaxi.webp" class="w-full h-full object-cover group-hover:scale-105 transition duration-500" alt="Grossraum Taxi" />
                 </div>
                 <div class="p-8">
-                    <h3 class="text-2xl font-bold mb-2 text-gray-900">Grossraumtaxi</h3>
+                    <h3 class="text-2xl font-bold mb-2 text-gray-900">Business Van</h3>
                     <p class="text-gray-600 mb-4">Mercedes V-Klasse - Für Gruppen und Business-Clients.</p>
                     <ul class="space-y-2 mb-6">
                         <li class="flex items-center gap-2 text-gray-700"><Check class="w-4 h-4 text-primary" /> Bis zu 7 Personen</li>
@@ -122,24 +122,27 @@ useHead({
                 <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
                   <div class="p-8">
                     <div class="flex justify-between items-center py-4 border-b border-gray-100">
-                      <span class="text-lg font-medium text-gray-700">Grundtaxe</span>
-                      <span class="text-2xl font-bold text-primary">CHF 6.00</span>
+                      <div>
+                          <span class="text-lg font-medium text-gray-700 block">Grundtaxe</span>
+                          <span class="text-xs text-gray-400">Die Grundgebühr wird pro Fahrt einmal verrechnet.</span>
+                      </div>
+                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 6.00</span>
                     </div>
                     <div class="flex justify-between items-center py-4 border-b border-gray-100">
                       <span class="text-lg font-medium text-gray-700">Tagtarif <span class="text-sm font-normal text-gray-400">(06:00 - 19:00)</span></span>
-                      <span class="text-2xl font-bold text-primary">CHF 4.20 <span class="text-sm font-normal text-gray-500">/ km</span></span>
+                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 4.20 <span class="text-sm font-normal text-gray-500">/ km</span></span>
                     </div>
                     <div class="flex justify-between items-center py-4 border-b border-gray-100">
                       <span class="text-lg font-medium text-gray-700">Nachttarif <span class="text-sm font-normal text-gray-400">(19:00 - 06:00)</span></span>
-                      <span class="text-2xl font-bold text-primary">CHF 4.90 <span class="text-sm font-normal text-gray-500">/ km</span></span>
+                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 4.90 <span class="text-sm font-normal text-gray-500">/ km</span></span>
                     </div>
                     <div class="flex justify-between items-center py-4">
                       <span class="text-lg font-medium text-gray-700">Wartezeit</span>
-                      <span class="text-2xl font-bold text-primary">CHF 1.00 <span class="text-sm font-normal text-gray-500">/ min</span></span>
+                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 1.00 <span class="text-sm font-normal text-gray-500">/ min</span></span>
                     </div>
                   </div>
                    <div class="bg-gray-50 px-8 py-4 text-center text-sm text-gray-500 border-t border-gray-100">
-                    Alle Preise inkl. MwSt. • Kartenzahlung & TWINT akzeptiert.
+                    Barzahlung - Kartenzahlung und TWINT akzeptiert.
                   </div>
                 </div>
 
@@ -148,17 +151,19 @@ useHead({
                     <NuxtImg src="/zurich-bild.webp" class="w-full h-full object-cover group-hover:scale-105 transition duration-700" alt="Zürich Flughafen" />
                     <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-8 text-white">
                         <h4 class="text-2xl font-bold mb-1">Flughafentransfer</h4>
-                        <p class="text-white/90">Stressfrei nach Zürich Kloten ab CHF 90.00</p>
+                        <p class="text-white/90">Stressfrei nach Zürich Kloten ab CHF 120.00</p>
                     </div>
                 </div>
             </div>
 
             <!-- Fixed Prices Table -->
             <div>
-                 <h3 class="text-2xl font-bold mb-6 text-gray-800 flex items-center gap-2">
+                 <h3 class="text-2xl font-bold mb-2 text-gray-800 flex items-center gap-2">
                     <div class="w-2 h-8 bg-action rounded-full"></div>
-                    Beliebte Pauschalpreise
+                    Pauschalpreise
                  </h3>
+                 <p class="text-xs font-bold text-gray-500 mb-6 uppercase tracking-wider ml-4">RICHTPREIS ZU TAGESZEITEN</p>
+
                  <div class="bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden">
                     <table class="w-full text-left border-collapse">
                         <thead>
@@ -168,42 +173,24 @@ useHead({
                             </tr>
                         </thead>
                         <tbody class="divide-y divide-gray-50">
-                            <tr class="hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Wohlen - Zürich Flughafen</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 90.00</td>
-                            </tr>
-                            <tr class="bg-gray-50/50 hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Muri - Aarau Bahnhof</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 115.00</td>
-                            </tr>
-                             <tr class="hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Wohlen Bahnhof - Bremgarten Bahnhof</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 45.00</td>
-                            </tr>
-                            <tr class="bg-gray-50/50 hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Wohlen - Waltenschwil</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 20.00</td>
-                            </tr>
-                             <tr class="hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Wohlen Waltenschwil - Muri</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 50.00</td>
-                            </tr>
-                            <tr class="bg-gray-50/50 hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Wohlen Waltenschwil - Zug</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 140.00</td>
-                            </tr>
-                            <tr class="hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Wohlen Waltenschwil - Baden Bhf</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 100.00</td>
-                            </tr>
-                            <tr class="bg-gray-50/50 hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Wohlen Waltenschwil - Sins</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 90.00</td>
-                            </tr>
-                            <tr class="hover:bg-green-50/30 transition">
-                                <td class="p-4 pl-6 font-medium text-gray-800">Dottikon - Bremgarten Bhf</td>
-                                <td class="p-4 pr-6 text-right font-bold text-primary">CHF 35.00</td>
-                            </tr>
+                            <!-- New Data -->
+                            <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Aarau Bahnhof</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 90.00</td></tr>
+                            <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Muri - Aarau Bahnhof</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 115.00</td></tr>
+                            <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen Bahnhof - Bremgarten Bahnhof</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 45.00</td></tr>
+                            <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Waltenschwil - Bremgarten West Bhf</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 25.00</td></tr>
+                             <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen - Waltenschwil</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 20.00</td></tr>
+                             <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Muri</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 50.00</td></tr>
+                             <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Widen/Berikon</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 55.00</td></tr>
+                             <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Sins</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 90.00</td></tr>
+                             <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Zug</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 140.00</td></tr>
+                             <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen - Lenzburg</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 50.00</td></tr>
+                             <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Waltenschwil - Lenzburg</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 55.00</td></tr>
+                             <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Brugg Bhf</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 80.00</td></tr>
+                             <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Baden Bhf</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 100.00</td></tr>
+                             <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Wohlen/Waltenschwil - Baden Spital</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 90.00</td></tr>
+                             <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Dintikon - Bremgarten Bhf</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 55.00</td></tr>
+                             <tr class="bg-gray-50/50 hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Dottikon - Wohlen Bhf</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 25.00</td></tr>
+                             <tr class="hover:bg-green-50/30 transition"><td class="p-3 pl-6 font-medium text-gray-800">Dottikon - Lenzburg Bhf</td><td class="p-3 pr-6 text-right font-bold text-primary">CHF 30.00</td></tr>
                         </tbody>
                     </table>
                      <div class="px-6 py-4 bg-yellow-50/50 text-xs text-center text-yellow-700 italic">
@@ -272,7 +259,7 @@ useHead({
     </section>
 
     <!-- Why Choose Us (New Section) -->
-    <section class="py-20 bg-gray-50">
+    <section id="blog" class="py-20 bg-gray-50">
       <div class="container mx-auto px-4">
         <div class="text-center mb-16">
            <h2 class="text-3xl font-bold text-gray-900 mb-4">Warum Taxie.ch?</h2>

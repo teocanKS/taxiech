@@ -15,11 +15,11 @@
       
       <div>
         <h3 class="font-bold text-gray-900 mb-4 text-lg">Rechtliches</h3>
-        <p>UID: CHE-254.284.360 MWST</p>
+        <p>UID: CHE-254.284.360</p>
         <div class="mt-4 flex items-center gap-2">
             <span class="text-xs font-bold">Zahlung:</span>
             <NuxtImg src="/twint-bezahlung-logo.webp" alt="Twint" class="h-8 w-auto" />
-            <span class="text-xs">Bargeld, Karte</span>
+            <span class="text-xs">Barzahlung, Kreditkarte</span>
         </div>
         <p class="mt-4">© {{ new Date().getFullYear() }} TaxiE Waltenschwil.</p>
         <p>Alle Rechte vorbehalten.</p>

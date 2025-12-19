@@ -11,11 +11,16 @@ const { zone } = useZone()
       <div class="container mx-auto px-4 h-40 flex items-center justify-between">
         <NuxtLink to="/" class="flex items-center gap-2 -ml-6">
           <NuxtImg src="/logo.webp" alt="Taxie Logo" class="h-40 w-auto" />
+          <div class="hidden lg:flex flex-col justify-center">
+            <span class="text-gray-900 font-bold leading-tight text-sm">Pünktlich, Sicher,</span>
+            <span class="text-action font-bold leading-tight text-sm">Zuverlässig</span>
+          </div>
         </NuxtLink>
         
         <nav class="hidden md:flex gap-10 font-bold text-gray-700 text-xl items-center">
           <NuxtLink to="/" class="hover:text-primary hover:scale-105 transition-transform" active-class="text-primary">Home</NuxtLink>
           <NuxtLink to="#tarife" class="hover:text-primary hover:scale-105 transition-transform">Tarife</NuxtLink>
+          <NuxtLink to="#blog" class="hover:text-primary hover:scale-105 transition-transform">Blog</NuxtLink>
           <NuxtLink to="#kontakt" class="hover:text-primary hover:scale-105 transition-transform">Kontakt</NuxtLink>
         </nav>
 
@@ -42,7 +47,7 @@ const { zone } = useZone()
       </a>
       <a href="https://wa.me/41798681000" target="_blank" class="w-1/2 bg-[#25D366] text-white flex items-center justify-center gap-2 active:bg-green-600">
         <MessageCircle class="w-5 h-5" />
-        WHATSAPP
+        WhatsApp Contact
       </a>
     </div>
 
