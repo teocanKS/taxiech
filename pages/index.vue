@@ -123,25 +123,44 @@ useHead({
                     Standard Tarife
                  </h3>
                 <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
-                  <div class="p-8">
-                    <div class="flex justify-between items-center py-4 border-b border-gray-100">
+                  <div class="p-8 space-y-1">
+                    <!-- Grundtaxe -->
+                    <div class="grid grid-cols-[1fr_auto_auto] items-baseline gap-2 border-b border-gray-100 py-3">
                       <div>
                           <span class="text-lg font-medium text-gray-700 block">Grundtaxe</span>
-                          <span class="text-sm text-gray-500 font-normal">Die Grundgebühr wird pro Fahrt einmal verrechnet.</span>
+                          <p class="text-xs text-gray-500 mt-1">Die Grundgebühr wird pro Fahrt einmal verrechnet.</p>
                       </div>
-                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 6.00</span>
+                      <div class="text-right font-bold text-primary text-xl">CHF 6.00</div>
+                      <div class="w-12 text-sm text-gray-400 text-right"></div>
                     </div>
-                    <div class="flex justify-between items-center py-4 border-b border-gray-100">
-                      <span class="text-lg font-medium text-gray-700">Tagtarif <span class="text-sm font-normal text-gray-400">(06:00 - 19:00)</span></span>
-                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 4.20 <span class="text-sm font-normal text-gray-500">/ km</span></span>
+
+                    <!-- Tagtarif -->
+                    <div class="grid grid-cols-[1fr_auto_auto] items-baseline gap-2 border-b border-gray-100 py-3">
+                      <div>
+                        <span class="text-lg font-medium text-gray-700">Tagtarif</span>
+                        <span class="text-sm font-normal text-gray-400 ml-2">(06:00 - 19:00)</span>
+                      </div>
+                      <div class="text-right font-bold text-primary text-xl">CHF 4.20</div>
+                      <div class="w-12 text-sm text-gray-500 text-right whitespace-nowrap">/ km</div>
                     </div>
-                    <div class="flex justify-between items-center py-4 border-b border-gray-100">
-                      <span class="text-lg font-medium text-gray-700">Nachttarif <span class="text-sm font-normal text-gray-400">(19:00 - 06:00)</span></span>
-                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 4.90 <span class="text-sm font-normal text-gray-500">/ km</span></span>
+
+                    <!-- Nachttarif -->
+                    <div class="grid grid-cols-[1fr_auto_auto] items-baseline gap-2 border-b border-gray-100 py-3">
+                      <div>
+                        <span class="text-lg font-medium text-gray-700">Nachttarif</span>
+                        <span class="text-sm font-normal text-gray-400 ml-2">(19:00 - 06:00)</span>
+                      </div>
+                      <div class="text-right font-bold text-primary text-xl">CHF 4.90</div>
+                      <div class="w-12 text-sm text-gray-500 text-right whitespace-nowrap">/ km</div>
                     </div>
-                    <div class="flex justify-between items-center py-4">
-                      <span class="text-lg font-medium text-gray-700">Wartezeit</span>
-                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 1.00 <span class="text-sm font-normal text-gray-500">/ min</span></span>
+
+                    <!-- Wartezeit -->
+                    <div class="grid grid-cols-[1fr_auto_auto] items-baseline gap-2 py-3">
+                      <div>
+                        <span class="text-lg font-medium text-gray-700">Wartezeit</span>
+                      </div>
+                      <div class="text-right font-bold text-primary text-xl">CHF 1.00</div>
+                      <div class="w-12 text-sm text-gray-500 text-right whitespace-nowrap">/ min</div>
                     </div>
                   </div>
                    <div class="bg-gray-50 px-8 py-4 text-center text-sm text-gray-500 border-t border-gray-100">
