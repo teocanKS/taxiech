@@ -125,42 +125,42 @@ useHead({
                 <div class="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
                   <div class="p-8 space-y-1">
                     <!-- Grundtaxe -->
-                    <div class="grid grid-cols-[1fr_auto_4rem] items-baseline gap-2 border-b border-gray-100 py-3">
+                    <div class="grid grid-cols-[1fr_auto_3rem] items-baseline gap-2 border-b border-gray-100 py-3">
                       <div>
                           <span class="text-lg font-bold text-gray-800 block">Grundtaxe</span>
                           <p class="text-xs text-gray-500 mt-1">Die Grundgebühr wird pro Fahrt einmal verrechnet.</p>
                       </div>
-                      <div class="text-right font-bold text-primary text-xl">CHF 6.00</div>
-                      <div class="text-xs text-gray-400 pl-1"></div>
+                      <div class="text-right font-bold text-green-700 text-xl">CHF 6.00</div>
+                      <div class="text-xs text-gray-400 text-right"></div>
                     </div>
 
                     <!-- Tagtarif -->
-                    <div class="grid grid-cols-[1fr_auto_4rem] items-baseline gap-2 border-b border-gray-100 py-3">
+                    <div class="grid grid-cols-[1fr_auto_3rem] items-baseline gap-2 border-b border-gray-100 py-3">
                       <div>
                         <span class="text-lg font-bold text-gray-800">Tagtarif</span>
                         <span class="text-xs font-normal text-gray-400 ml-2">(06:00 - 19:00)</span>
                       </div>
-                      <div class="text-right font-bold text-primary text-xl">CHF 4.20</div>
-                      <div class="text-xs text-gray-500 pl-1">/ km</div>
+                      <div class="text-right font-bold text-green-700 text-xl">CHF 4.20</div>
+                      <div class="text-xs text-gray-400 text-right">/ km</div>
                     </div>
 
                     <!-- Nachttarif -->
-                    <div class="grid grid-cols-[1fr_auto_4rem] items-baseline gap-2 border-b border-gray-100 py-3">
+                    <div class="grid grid-cols-[1fr_auto_3rem] items-baseline gap-2 border-b border-gray-100 py-3">
                       <div>
                         <span class="text-lg font-bold text-gray-800">Nachttarif</span>
                         <span class="text-xs font-normal text-gray-400 ml-2">(19:00 - 06:00)</span>
                       </div>
-                      <div class="text-right font-bold text-primary text-xl">CHF 4.90</div>
-                      <div class="text-xs text-gray-500 pl-1">/ km</div>
+                      <div class="text-right font-bold text-green-700 text-xl">CHF 4.90</div>
+                      <div class="text-xs text-gray-400 text-right">/ km</div>
                     </div>
 
                     <!-- Wartezeit -->
-                    <div class="grid grid-cols-[1fr_auto_4rem] items-baseline gap-2 py-3">
+                    <div class="grid grid-cols-[1fr_auto_3rem] items-baseline gap-2 py-3">
                       <div>
                         <span class="text-lg font-bold text-gray-800">Wartezeit</span>
                       </div>
-                      <div class="text-right font-bold text-primary text-xl">CHF 1.00</div>
-                      <div class="text-xs text-gray-500 pl-1">/ min</div>
+                      <div class="text-right font-bold text-green-700 text-xl">CHF 1.00</div>
+                      <div class="text-xs text-gray-400 text-right">/ min</div>
                     </div>
                   </div>
                    <div class="bg-gray-50 px-8 py-4 text-center text-sm text-gray-500 border-t border-gray-100">

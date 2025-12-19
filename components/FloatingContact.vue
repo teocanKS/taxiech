@@ -75,24 +75,19 @@ const openWhatsApp = () => {
     <!-- Toggle Button -->
     <button 
       @click="toggleChat" 
-      class="group relative flex items-center justify-center w-16 h-16 rounded-full shadow-lg hover:shadow-2xl transition duration-300 transform hover:scale-105"
-      :class="isOpen ? 'bg-[#9C7ECC] rotate-90' : 'bg-[#0FA968]'"
+      class="group relative flex items-center gap-3 bg-[#0FA968] hover:bg-[#0C8F58] px-6 py-4 rounded-full shadow-lg hover:shadow-2xl transition duration-300 transform hover:-translate-y-1"
     >
-      <Transition
-        mode="out-in"
-        enter-active-class="duration-200 ease-out"
-        enter-from-class="opacity-0 rotate-45"
-        enter-to-class="opacity-100 rotate-0"
-        leave-active-class="duration-200 ease-in"
-        leave-from-class="opacity-100 rotate-0"
-        leave-to-class="opacity-0 -rotate-45"
-      >
-        <X v-if="isOpen" class="w-8 h-8 text-white absolute" />
-        <MessageCircle v-else class="w-8 h-8 text-white absolute" />
-      </Transition>
+        <span v-if="isOpen" class="flex items-center gap-3">
+             <X class="w-6 h-6 text-white" />
+             <span class="font-bold text-white whitespace-nowrap text-lg">Schliessen</span>
+        </span>
+        <span v-else class="flex items-center gap-3">
+             <MessageCircle class="w-6 h-6 text-white" />
+             <span class="font-bold text-white whitespace-nowrap text-lg">WhatsApp Contact</span>
+        </span>
       
       <!-- Notification Badge -->
-      <span v-if="!isOpen" class="absolute top-0 right-0 w-4 h-4 bg-red-500 rounded-full border-2 border-white animate-pulse"></span>
+      <span v-if="!isOpen" class="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full border-2 border-white animate-pulse"></span>
     </button>
   </div>
 </template>
