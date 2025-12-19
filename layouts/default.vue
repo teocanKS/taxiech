@@ -13,11 +13,11 @@ const { zone } = useZone()
           <NuxtImg src="/logo.webp" alt="Taxie Logo" class="h-40 w-auto" />
         </NuxtLink>
         
-        <nav class="hidden md:flex gap-10 font-bold text-gray-700 text-xl items-center">
-          <NuxtLink to="/" class="hover:text-primary hover:scale-105 transition-transform" active-class="text-primary">Home</NuxtLink>
-          <NuxtLink to="#tarife" class="hover:text-primary hover:scale-105 transition-transform">Tarife</NuxtLink>
-          <NuxtLink to="#blog" class="hover:text-primary hover:scale-105 transition-transform">Blog</NuxtLink>
-          <NuxtLink to="#kontakt" class="hover:text-primary hover:scale-105 transition-transform">Kontakt</NuxtLink>
+        <nav class="hidden md:flex gap-10 font-bold text-gray-800 text-xl items-center">
+          <NuxtLink to="/" class="hover:text-[#25D366] hover:scale-105 transition-transform" active-class="" exact-active-class="text-[#25D366]">Home</NuxtLink>
+          <NuxtLink to="#tarife" class="hover:text-[#25D366] hover:scale-105 transition-transform">Tarife</NuxtLink>
+          <NuxtLink to="#blog" class="hover:text-[#25D366] hover:scale-105 transition-transform">Blog</NuxtLink>
+          <NuxtLink to="#kontakt" class="hover:text-[#25D366] hover:scale-105 transition-transform">Kontakt</NuxtLink>
         </nav>
 
         <a href="tel:+41798681000" class="hidden md:flex bg-action hover:bg-yellow-400 text-black px-6 py-3 rounded-full font-bold text-lg transition items-center gap-3 shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
@@ -48,7 +48,11 @@ const { zone } = useZone()
     </div>
 
     <!-- Desktop Floating Widget -->
-    <FloatingContact class="hidden md:flex" />
+    <a href="https://wa.me/41798681000" target="_blank" rel="noopener noreferrer"
+       class="hidden md:flex fixed bottom-8 right-8 z-50 items-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white px-6 py-3 rounded-full shadow-2xl transition-all hover:scale-105 no-underline">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
+        <span class="font-bold text-lg whitespace-nowrap">WhatsApp Contact</span>
+    </a>
   </div>
 </template>
 
