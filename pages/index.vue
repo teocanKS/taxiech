@@ -44,9 +44,12 @@ useHead({
       </div>
       
       <div class="container mx-auto px-4 relative z-10 text-center text-white">
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight drop-shadow-xl text-balance">
+        <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight drop-shadow-xl text-balance mb-2">
           TaxiE
         </h1>
+        <p class="text-2xl md:text-4xl font-light text-action mb-8 tracking-wide drop-shadow-md">
+          Pünktlich, Sicher, Zuverlässig
+        </p>
         <p class="text-xl md:text-3xl mb-10 font-light max-w-4xl mx-auto text-balance">
           24/7 Taxi-Service in Waltenschwil, Wohlen, Bremgarten, Muri AG und Umgebung!
         </p>
@@ -124,21 +127,21 @@ useHead({
                     <div class="flex justify-between items-center py-4 border-b border-gray-100">
                       <div>
                           <span class="text-lg font-medium text-gray-700 block">Grundtaxe</span>
-                          <span class="text-xs text-gray-400">Die Grundgebühr wird pro Fahrt einmal verrechnet.</span>
+                          <span class="text-sm text-gray-500 font-normal">Die Grundgebühr wird pro Fahrt einmal verrechnet.</span>
                       </div>
-                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 6.00</span>
+                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 6.00</span>
                     </div>
                     <div class="flex justify-between items-center py-4 border-b border-gray-100">
                       <span class="text-lg font-medium text-gray-700">Tagtarif <span class="text-sm font-normal text-gray-400">(06:00 - 19:00)</span></span>
-                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 4.20 <span class="text-sm font-normal text-gray-500">/ km</span></span>
+                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 4.20 <span class="text-sm font-normal text-gray-500">/ km</span></span>
                     </div>
                     <div class="flex justify-between items-center py-4 border-b border-gray-100">
                       <span class="text-lg font-medium text-gray-700">Nachttarif <span class="text-sm font-normal text-gray-400">(19:00 - 06:00)</span></span>
-                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 4.90 <span class="text-sm font-normal text-gray-500">/ km</span></span>
+                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 4.90 <span class="text-sm font-normal text-gray-500">/ km</span></span>
                     </div>
                     <div class="flex justify-between items-center py-4">
                       <span class="text-lg font-medium text-gray-700">Wartezeit</span>
-                      <span class="text-2xl font-bold text-primary w-32 text-right">CHF 1.00 <span class="text-sm font-normal text-gray-500">/ min</span></span>
+                      <span class="text-2xl font-bold text-primary w-36 text-right shrink-0">CHF 1.00 <span class="text-sm font-normal text-gray-500">/ min</span></span>
                     </div>
                   </div>
                    <div class="bg-gray-50 px-8 py-4 text-center text-sm text-gray-500 border-t border-gray-100">

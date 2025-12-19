@@ -11,10 +11,6 @@ const { zone } = useZone()
       <div class="container mx-auto px-4 h-40 flex items-center justify-between">
         <NuxtLink to="/" class="flex items-center gap-2 -ml-6">
           <NuxtImg src="/logo.webp" alt="Taxie Logo" class="h-40 w-auto" />
-          <div class="hidden lg:flex flex-col justify-center">
-            <span class="text-gray-900 font-bold leading-tight text-sm">Pünktlich, Sicher,</span>
-            <span class="text-action font-bold leading-tight text-sm">Zuverlässig</span>
-          </div>
         </NuxtLink>
         
         <nav class="hidden md:flex gap-10 font-bold text-gray-700 text-xl items-center">
